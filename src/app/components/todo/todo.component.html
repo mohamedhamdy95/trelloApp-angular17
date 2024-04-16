@@ -1,0 +1,21 @@
+<div>
+  <div class="row">
+    <div
+      class="col-md-3"
+      style="background-color: rgb(12, 180, 185); height: 90vh"
+    >
+      <div class="m-3">
+        <mat-card>
+          <form [formGroup]="todoForm" class="p-3">
+            <mat-form-field appearance="outline" style="width: 100%;">
+              <mat-label>Write Task</mat-label>
+              <input matInput placeholder="Task Title" formControlName="item" />
+              <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+              <mat-hint>Task Input</mat-hint>
+            </mat-form-field>
+          </form>
+        </mat-card>
+      </div>
+    </div>
+  </div>
+</div>
